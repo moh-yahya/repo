@@ -1,0 +1,91 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+color: black;
+margin-bottom: 5px;
+text-align: center;
+}
+
+.first{
+    border: 2px solid;
+    margin:10px;
+    background-color: #bbbbbb;
+
+}
+
+p{
+    padding: 2px;
+}
+  
+  .beef{
+    background-color: red;
+    color: black;
+    border: 2px solid;
+    border-right: none;
+    margin-left: 80%;
+    padding: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: cursive;
+    height: auto;
+   
+  }
+  .beef p{
+    color: white;
+  }
+  
+   .chicken{
+    background-color: pink;
+    color: black;
+    border: 2px solid;
+    border-right: none;
+    margin-left: 80%;
+    padding: 3px;
+    text-align: center;
+    font-family: cursive;
+    height: auto;
+    
+  }
+  
+  
+   .sushi{
+    background-color: yellow;
+    color: black;
+    border: 2px solid;
+    border-right: none;
+    margin-left: 80%;
+    padding: 3px;
+    text-align: center;
+    font-family: cursive;
+    height: auto;
+    
+  }
+  
+ 
+   /****resposive***/
+   @media (min-width: 1200px){
+    .first{
+        width: 90%;
+        background-color: yellow;
+    }
+   }
+   @media(min-width:992px) and (max-width:1199px){
+    .first{
+        width:60%;
+        background-color: green;
+    }
+   }
+    @media(max-width:991px){
+    .first{
+        width:30%;
+        background-color: red;
+    }
+   }
+   
+   
+   /****resposive***/
+  
